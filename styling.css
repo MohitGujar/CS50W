@@ -1,0 +1,63 @@
+body {
+	 background-color: white;
+}
+ div {
+	 text-align: justify;
+	 text-justify: inter-word;
+	 color: #0b7d90;
+}
+ h1 {
+	 text-align: center;
+	 color: rgba(189, 33, 48, 0.8509803921568627);
+	 margin-top: 10px;
+	 margin-bottom: 10px;
+}
+ @media print {
+	 .screen-only {
+		 display: none;
+	}
+}
+ @media screen and (max-width: 800px) {
+	 .screen-only {
+		 display: none;
+	}
+}
+ table {
+	 text-align: center;
+}
+ table th {
+	 background-color: #b4b4b4;
+}
+ table th:first-child {
+	 border-radius: 15px 0 0 0;
+	 text-align: left;
+}
+ table th:last-child {
+	 border-radius: 0 15px 0 0;
+}
+ table td {
+	 background-color: rgba(15, 15, 15, 0.08);
+}
+ table tr td:first-child {
+	 text-align: left;
+}
+ table tr:last-child td:first-child {
+	 border-radius: 0 0 0 15px;
+}
+ table tr:last-child td:last-child {
+	 border-radius: 0 0 15px 0;
+}
+ .font_increase {
+	 font-weight: bolder;
+}
+ #one, #two, #three, #four, #specs1, #specs2, #specs3, #specs4 {
+	 font-weight: bolder;
+	 background-color: inherit;
+	 align-items: center;
+}
+ #one, #two, #three, #four {
+	 color: rgba(189, 33, 48, 0.8509803921568627);
+}
+ #specs1, #specs2, #specs3, #specs4 {
+	 color: #0b7d90;
+}
